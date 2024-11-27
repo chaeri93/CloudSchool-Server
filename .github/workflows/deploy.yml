@@ -75,7 +75,7 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          touch /src/main/resources/prod.env
+          touch /src/main/resources/application-db.properties
           echo "${{ secrets.CLOUD_ENV_VARS }}" >> /src/main/resources/application-db.properties
           chmod +x ./gradlew
           ./gradlew build --warning-mode all --scan -Pprofile=prod
