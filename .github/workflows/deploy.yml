@@ -75,10 +75,10 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          touch /src/main/resources/application-db.properties
-          echo "${{ secrets.CLOUD_ENV_VARS }}" >> /src/main/resources/application-db.properties
+          touch ./src/main/resources/application-db.properties
+          echo "${{ secrets.CLOUD_ENV_VARS }}" >> ./src/main/resources/application-db.properties
           chmod +x ./gradlew
-          ./gradlew build --warning-mode all --scan -Pprofile=prod
+          ./gradlew build --warning-mode all --scan
 
 
       - name: Configure AWS credentials
