@@ -1,4 +1,4 @@
-package com.example.cloud.Repository;
+package com.example.cloud.repository;
 
 import com.example.cloud.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,6 +1,6 @@
 package com.example.cloud.service;
 
-import com.example.cloud.Repository.UserRepository;
+import com.example.cloud.repository.UserRepository;
 import com.example.cloud.domain.User;
 import org.springframework.stereotype.Service;
 
