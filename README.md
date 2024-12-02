@@ -10,6 +10,9 @@
 ### 프론트엔드
 - React: 프론트엔드 구현
 - Axios: API 호출
+  
+![image](https://github.com/user-attachments/assets/9082c32c-7aab-4fe1-9b81-6651fdbe1bd8)
+
 ### 인프라
 - AWS ECS: 서버 배포
 - AWS RDS: Mysql로 데이터 저장
